@@ -33,4 +33,3 @@
 ### [My Version of the Course Schedule](Schedule.md)
 
 ### [Download Buttons, Option One](DownloadButtons.md)
-
