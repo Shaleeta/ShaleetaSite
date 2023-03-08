@@ -8,6 +8,8 @@ In this version, the button is an image file resized and linked to the appropria
 
 # Other Pages to Visit
 
+### [Home](README.md)
+
 ### [My Version of the Course Schedule](Schedule.md)
 
 ### [Documentation](Documentation.md)
