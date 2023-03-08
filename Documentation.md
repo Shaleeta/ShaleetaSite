@@ -24,6 +24,8 @@
 
 # Other Pages to Visit
 
+### [Home](README.md)
+
 ### [My Version of the Course Schedule](Schedule.md)
 
 ### [Download Buttons, Option One](DownloadButtons.md)
