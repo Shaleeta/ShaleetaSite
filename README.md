@@ -8,6 +8,8 @@ This is a GitHub site used to test material for PUB607, a technology in publishi
 
 #### [Documentation](Documentation.md)
 
+<br>
+
 ### Questions I've Had
 
 - What is a repository, really? 
