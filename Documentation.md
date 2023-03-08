@@ -21,3 +21,10 @@
 - Simplest dynamic method is to add a photo as a button and add a link for the photo... but this means using an external editor... 
 - Can you float text over an image? If so you could have a static button image and just change the text as needed
 - Alternatively, you could use the cover image as the dynamic button, and also use plain linked text? 
+
+# Other Pages to Visit
+
+### [My Version of the Course Schedule](Schedule.md)
+
+### [Download Buttons, Option One](DownloadButtons.md)
+
