@@ -24,12 +24,23 @@
 - This page wasn't rendering as Markdown, so looked into why... no clear reason, but I updated the local version (I've been working on the cloud) and it rendered finally
 - Added a list of links to the end of each page to ensure people could navigate (look at better method later)
 
+### March 8, 2023
+
+- Added a line to the left edge of my "table of contents" on each page
+- Tried to make the line start above the point of text, couldn't get it to
+- Reduced header size by adding an extra "#" 
+- Struggling to get line breaks correctly in MD. Sometimes they happen as if I was in a word proccessor, sometimes not
+    - Tried to add a backslash, didn't parse it correctly
+    - Tried adding html, it broke everything after that
+    - Attempted two spaces at the end of a line to add a break, didn't work
+    - Gave up for now!
+    - 
+
+  
 
 
-# Other Pages to Visit
-
-### [Home](README.md)
-
-### [My Version of the Course Schedule](Schedule.md)
-
-### [Download Buttons, Option One](DownloadButtons.md)
+> ## Other Pages to Visit
+> 
+> #### [Home](README.md)
+> #### [My Version of the Course Schedule](Schedule.md)
+> #### [Download Buttons, Option One](DownloadButtons.md)
