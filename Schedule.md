@@ -39,6 +39,8 @@ Other:
 
 # Other Pages to Visit
 
+### [Home](README.md)
+
 ### [Download Buttons, Option One](DownloadButtons.md)
 
 ### [Documentation](Documentation.md)
