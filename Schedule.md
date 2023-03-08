@@ -35,7 +35,8 @@ Other:
 **Thur Apr 6** - PUB 607 Show and Tell + End of Term!
 
 
-> # Other Pages to Visit
+>
+> ## Other Pages to Visit
 > #### [Home](README.md)
 > #### [Download Buttons, Option One](DownloadButtons.md)
 > #### [Documentation](Documentation.md)
