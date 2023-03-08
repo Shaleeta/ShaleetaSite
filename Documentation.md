@@ -16,11 +16,15 @@
 - John went over pages setup, and discovered the missing element was a ReadMe.md file
 - I deleted all extrenuous pages and created a ReadMe file; it worked!
 - Attempted to find ways to make button on GitHub
-- Made linked text enlarged, this could work as an easy download link (automatically changes colour)
-- Reviewing posts discussing button creation on Markdown, and most involve using HTML or other languages for some parts or copying extra information
-- Simplest dynamic method is to add a photo as a button and add a link for the photo... but this means using an external editor... 
-- Can you float text over an image? If so you could have a static button image and just change the text as needed
-- Alternatively, you could use the cover image as the dynamic button, and also use plain linked text? 
+    - Made linked text enlarged, this could work as an easy download link (automatically changes colour)
+    - Reviewing posts discussing button creation on Markdown, and most involve using HTML or other languages for some parts or copying extra information
+    - Simplest dynamic method is to add a photo as a button and add a link for the photo... but this means using an external editor... 
+    - Can you float text over an image? If so you could have a static button image and just change the text as needed
+    - Alternatively, you could use the cover image as the dynamic button, and also use plain linked text? 
+- This page wasn't rendering as Markdown, so looked into why... no clear reason, but I updated the local version (I've been working on the cloud) and it rendered finally
+- Added a list of links to the end of each page to ensure people could navigate (look at better method later)
+
+
 
 # Other Pages to Visit
 
