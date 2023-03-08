@@ -32,10 +32,12 @@ Other:
 
 **Tues Apr 4** - Audiobook wrap-up time   
 
-**Thur Apr 6** - PUB 607 Show and Tell + End of Term!
-
-
->
+**Thur Apr 6** - PUB 607 Show and Tell + End of Term!  
+  
+    
+      
+>  
+>  
 > ## Other Pages to Visit
 > #### [Home](README.md)
 > #### [Download Buttons, Option One](DownloadButtons.md)
