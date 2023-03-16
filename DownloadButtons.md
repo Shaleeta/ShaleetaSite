@@ -54,7 +54,7 @@ Using inline CSS to create a detailed button. The first version has an html tag,
 
 
   
-<a href="#" class="button">Download the Audiobook</a>
+<a href="https://lmgtfy.app/?q=How+to+Download+an+Audiobook" class="button">Download the Audiobook</a>
 
 </body>
 </html>
@@ -80,7 +80,7 @@ No HTML Tag Version
 </head>
 <body>
 
-<a href="#" class="button">Download the Audiobook</a>
+<a href="https://lmgtfy.app/?q=How+to+Download+an+Audiobook" class="button">Download the Audiobook</a>
 
 </body>
 
