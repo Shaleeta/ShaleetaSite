@@ -1,3 +1,4 @@
+
 ## Download Button Option #1
 In this version, the button is an image file resized and linked to the appropriate source. 
 
@@ -23,14 +24,14 @@ Does the indent draw more attention? Is it as effective as a button?
 ## Download Button Option #4
 Using an HTML button with no CSS.
 
-[<button style="margin-right:25px;">Download Audiobook</button>](https://lmgtfy.app/?q=How+to+Download+an+Audiobook)
+*did not render*
 
 <br>
 
 ## Download Button Option #5
 Using CSS to create a detailed button.
 
-[<button type="button">Download Audiobook</button>](https://lmgtfy.app/?q=How+to+Download+an+Audiobook)
+*did not render* 
 
 <br>
 
