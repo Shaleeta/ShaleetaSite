@@ -30,8 +30,7 @@ Using an HTML button with no CSS.
 <br>
 
 ## Download Button Option #5
-Using inline CSS to create a detailed button. The first version has an html tag, the next has no tag. Both seem to work okay?
-
+Using inline CSS to create a detailed button. 
 
 
 <head>
@@ -41,11 +40,11 @@ Using inline CSS to create a detailed button. The first version has an html tag,
   border: none;
   color: white;
   font-weight: bold;
-  padding: 25px 50px;
+  padding: 20px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 16px;
   margin: 6px 3px;
   cursor: pointer;
 }
@@ -57,6 +56,8 @@ Using inline CSS to create a detailed button. The first version has an html tag,
 
 </body>
 
+<br>
+<br>
 <br>
 
 
