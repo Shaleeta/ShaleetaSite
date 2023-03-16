@@ -24,17 +24,68 @@ Does the indent draw more attention? Is it as effective as a button?
 ## Download Button Option #4
 Using an HTML button with no CSS.
 
-*did not render*
-
 <button type="button">Download Audiobook!</button>
 
 
 <br>
 
 ## Download Button Option #5
-Using CSS to create a detailed button.
+Using inline CSS to create a detailed button.
 
-*did not render* 
+<!DOCTYPE md>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Buttons</h2>
+
+<a href="#" class="button">Link Button</a>
+
+</body>
+</html>
+
+No HTML Tag Version 
+
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Buttons</h2>
+
+<a href="#" class="button">Link Button</a>
+
+</body>
 
 <br>
 
