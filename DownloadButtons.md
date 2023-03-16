@@ -32,34 +32,7 @@ Using an HTML button with no CSS.
 ## Download Button Option #5
 Using inline CSS to create a detailed button. The first version has an html tag, the next has no tag. Both seem to work okay?
 
-<html>
-<head>
-<style>
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  font-weight: bold;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-</style>
-</head>
-<body>
 
-
-  
-<a href="https://lmgtfy.app/?q=How+to+Download+an+Audiobook" class="button">Download the Audiobook</a>
-
-</body>
-</html>
-
-No HTML Tag Version 
 
 <head>
 <style>
@@ -73,7 +46,7 @@ No HTML Tag Version
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin: 8px 4px;
+  margin: 6px 3px;
   cursor: pointer;
 }
 </style>
