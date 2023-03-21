@@ -41,7 +41,7 @@ Using an HTML button with no CSS.
 <br>
 
 ## Download Button Option #5
-Using inline CSS to create a detailed button. Please note that you need to add the CSS to the "head" portion of the document, and then the button is placed in the text later. 
+Using inline CSS to create a detailed button. Please note that you need to add the CSS to the "head" portion of the document, and then the button is placed in the "body" portion. 
 
 
 <head>
