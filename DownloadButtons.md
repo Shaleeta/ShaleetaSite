@@ -11,9 +11,9 @@ In this version, the button is an image file resized and linked to the appropria
 ## Download Button Option #2
 In this version, we forgo the button element and just use linked text that is bolded for emphasis. 
 
-**[Download Audiobook](https://lmgtfy.app/?q=How+to+Download+an+Audiobook)**
+**[Download Audiobook](Download Audiobook.png)**
 
-    **[Download Audiobook](https://lmgtfy.app/?q=How+to+Download+an+Audiobook)**
+    **[Download Audiobook](Download Audiobook.png)**
 
 
 <br>
@@ -22,9 +22,9 @@ In this version, we forgo the button element and just use linked text that is bo
 ## Download Button Option #3
 In this version, similar to above, we use simple linked text. Here, though, we also indent this section.
 
-> [Download Audiobook](https://lmgtfy.app/?q=How+to+Download+an+Audiobook)
+> [Download Audiobook](Download Audiobook.png)
 
-    > [Download Audiobook](https://lmgtfy.app/?q=How+to+Download+an+Audiobook)
+    > [Download Audiobook](Download Audiobook.png)
 
 Does the indent draw more attention? Is it as effective as a button? 
 
@@ -63,7 +63,7 @@ Using inline CSS to create a detailed button. Please note that you need to add t
 </head>
 <body>
 
-<a href="https://lmgtfy.app/?q=How+to+Download+an+Audiobook" class="button">Download the Audiobook</a>
+<a href="Download Audiobook.png" class="button">Download the Audiobook</a>
 
 </body>
 
