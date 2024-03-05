@@ -34,7 +34,7 @@ Files are typically organized in **Filesystems**. The system we all take for gra
 
 Inside a file is data. Typically, files have two parts. The "header" of the file, which you usually don't see, is a bundle of data that identifies the file and provides some basic metadata so that your operating system (and you) can make sense of it. Following the header is the part you do see: a bundle of data that represents the content of the file: a text, an image, a sound, your taxes, a set of database relations, or whatever.
 
-For the most part, files are *dumb*. They can't do anything; they sit there passively until operated on by an **application**, which can open, read, edit, manipulate, and/or save the file.
+For the most part, files are *static*. They can't do anything; they sit there passively until operated on by an **application**, which can open, read, edit, manipulate, and/or save the file.
 
 There are as many **file types** as there are pieces of software, more or less. Which is to say gazillions of them. File **standards** are the exception not the rule, and so every different version of a word processor has its own file types. The result is files that are eventually being unusable, or at least only partially usable, if they aren't opened by the exact application that they were designed for.
 
