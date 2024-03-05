@@ -1,0 +1,111 @@
+Class: Files: 1:20-4:20: Technology news?
+Hello! Today we're going to say hello, talk about what this class is going to be all about, and ensure we all have the materials we need. First: Introduce myself/background
+I want to know how you take in information best before I start lectures. I’m comfortable with slides, worksheets, conversations, lectures… but everyone is different. This class was created by John Maxwell, who you will meet in a couple of weeks, and he hated slides. He loves classes to be conversations, discussions, constantly winding off track. I am a huge fan of that style, but it doesn’t work for everyone. 
+So, in a moment I’m going to ask everyone to introduce themselves, and before the next person goes, just let me know something about your learning style. 
+Everyone else: introduce yourselves, and one fact about your learning style.
+We have twelve classes. In the first 10 classes, we have five lectures, four labs, and one field trip. The last week is just wrap-up and presentations. This is intended to be a project-based course, not a lecture-based one. It is flexible. 
+In this class in the past students have done an audiobook and an ebook, but I’d like to see us focus on the audiobook process, learn about documentation, and dabble in some other tech. I’m keeping a large portion of the information about ebooks in this process–we’ll even discuss how we would do an ebook on March 21–but you won’t be asked to create one.
+This is where the daily presentations come in. I don’t want this to be a repeat of 802, but I do want you to play with and understand some technologies. I posted a list of options on Canvas, and you can choose your first and second choice from that list. Something I didn’t put there is that I would prefer practical projects over presentations. If you have some other type of technology you’d like to try out and report on, let me know. I’ll probably approve it. The goal with these presentations isn’t adding more work, so don’t spend time perfecting the visuals or going over your speech; try out the technology (if you can) and learn about it. Try to answer some of the questions on the list, and come in and tell us all about it. I expect that the presentations next week will be a bit shorter than the ones later in the course. 
+2:10: I prefer two 10-minute breaks over one 20-minute break in my classes. Any problems with that? If not, let’s take a break. 
+Back–great. Our discussion about files and file management will be about an hour, and then we will set groups, and you can start talking about your group plan/what you’d like to do, or you can go onto Canvas and put your name on the list for the daily presentation. 
+First, why are we talking about file management and documentation this week? It seems simple, and it kind of is. However, technology is a science, and in science, we record and replicate our successes. If we don’t remember what we tried, what we tested, what did and didn’t work, we won’t be able to pass that learning on to others.  
+
+
+
+
+Lecture: 
+So, this week is all about what files are, how they work in a computer, and how we’ll be documenting as a group. We could just document our notes in Word or Google Docs, but I believe the system we’ll learn this week is valuable and will improve your understanding of the rest of the course.  
+
+At the very beginning of our consideration of digital production, we need to talk about *files*. Because files are fundamental to digital production. Or are they?
+
+## File Management
+
+A file is a **metaphor** for a structured bundle of data in a computer. Files do not actually exist in your computer, or on its hard drive (which is not in fact hard). The file is a user-interface metaphor that shapes a set of behaviours around how we deal with digital media. The files metaphor is closely related to the idea of "documents," but not exactly equivalent.
+
+The idea of files dates to the late 1960s, early 1970s, and was popularized through the spread of the Unix operating system (which is still with us). The metaphor has been around so long that it has become completely naturalized. We treat files as if they are the natural way of dealing with information on computers. It's worth noting that alternative metaphors (or patterns) are becoming more common: streams; queries; things pulled together on the fly out of databases. But files always seem to be there, as permanent or semi-permanent things.
+
+Files are typically organized in **Filesystems**. The system we all take for granted is the "hierarchical file system," where there is a hierarchical set of "folders" and folders within folders that uniquely locate and organize files. It seems natural because it's been with us for decades, but it's doesn't have to be this way.
+
+Inside a file is data. Typically, files have two parts. The "header" of the file, which you usually don't see, is a bundle of data that identifies the file and provides some basic metadata so that your operating system (and you) can make sense of it. Following the header is the part you do see: a bundle of data that represents the content of the file: a text, an image, a sound, your taxes, a set of database relations, or whatever.
+
+For the most part, files are *dumb*. They can't do anything; they sit there passively until operated on by an **application**, which can open, read, edit, manipulate, and/or save the file.
+
+There are as many **file types** as there are pieces of software, more or less. Which is to say gazillions of them. File **standards** are the exception not the rule, and so every different version of a word processor has its own file types. The result is files that are eventually being unusable, or at least only partially usable, if they aren't opened by the exact application that they were designed for.
+
+There are, notably, a handful of important file standards, where file types work across a number of different applications and aren't bound to a single app:
+
+**Text files**, made up only of lines of text characters. This was the old standard for Unix files, and these are, handily, mostly human-readable. Sometimes text files have a specific internal format: e.g., .csv spreadsheets.
+
+**XML files**, which are text files with specific structures expressed in them. XML files are theoretically openable and usable by any XML-aware application. In reality it's not quite so simple.
+
+**Image, sound, and video files** that we pass around on the Internet (JPGs, PNGs, MP3s, MOVs, etc.). Since the early Internet was pluralistic enough to demand **open file formats** that a variety of different tools and applications could all use. These are structured bundles of, for the most part, *sampled* data about images, sounds, etc. More about this below...
+
+**Defacto common standards** like .docx files are *sort-of* open and *sort of* interoperable, but they are still largely controlled by Microsoft and Adobe. They have achieved standards-like status because they are ubiquitous.
+
+## So many files! How can I manage?
+
+So we live in a universe populated by zillions of files, over various types, and all more or less organized in hierarchical folders.
+
+**File naming** is, for the most part, an unregulated business. There is a common practice wherein we use a particular 3- or 4-letter code at the end of the filename to indicade the file type (e.g. ".txt" or ".pdf"). But it's not a formal standard; it's just how most people and some software recognizes things. Your computer's operating system probably uses the filename ending to figure out which application to use if you double-click on the file icon.
+
+What you put before the dot in a file name is completely up to you. The trouble is, obviously, that your computer (and your inbox) eventually fills up with things like `untitled.docx` or `final.xlsx`, or worse: `FINALfinal.pdf`.
+
+People commonly like to use short, easily typed filenames and then rely on the enclosing folder name for context. This, of course, falls apart as soon as you take the file out of that folder and send it to someone.
+
+Regular computer filesystems, for the most part, do not track the history of changes to files. If I have two files, both named `final.docx`, I might have a clue about which one is final-er than the other by comparing the date in the file metadata; but that date might only reflect when the file was *sent to me* rather than when it was actually edited. 
+
+There *are* systems for **tracking changes** -- or **versions** -- in files and filesystems, and they are definitely worth using. Generally, this means going to the trouble of doing so. Which is why this isn't more commonly used.
+
+A good old DIY workaround for this is to embed version information directly in the filename, like `final-JMax-Dec13.docx` -- It's hardly foolproof, but it might be better than nothing.
+
+So we live in a universe with zillions of files and, at best, there are some folk practices half-heartedly applied to help us manage them all.
+
+## Content Management concepts and software
+
+Part of what's so successful about the "file" metaphor is that it allows us to think of digital things *as if they were paper documents*. One implication of this practice is that we don't tend to think of a file as existing in more than once place at once. We also don't really think of them as dynamic. If a file changes, we like to think of it as a new version of that file, as opposed to the same file, with history. even "track changes" in Word seems more like a set of scribbles in a file rather than actually "tracking" changes.
+
+**Content management systems** (CMS) break some of these conceptual limitations. Instead of files living in hierarchies of folders -- on my computer, on your computer, in your inbox, or in my inbox -- a CMS keeps a file in one central online place, and anyone who needs to see it, work on it, etc. comes to it, rather than a copy of the file travelling to them. Therefore multiple people can all be accessing the same file at once. That necessitates keeping track of changes to the file -- if you and I are both editing it, what happens, and when?
+
+There are lots of different kinds of content management systems. **Wordpress** is one kind. **Dropbox** is another kind. **Github** is another. Each makes slightly different trade-offs between the kind of flexibility it offers, against how far it breaks the paper-document metaphor. 
+
+**Wordpress** very much keeps a single, centralized copy of a document (for instance, a post), but it makes the change history of that document easy to see and manage. **Dropbox** also keeps a change history, but it mostly hides it away, so your file in Dropbox looks and acts a lot more like a regular old file on your own computer. **Github** has both local files -- in your own folder hierarchy -- and centrally managed files, tracking the change history across all of these (and across multiple users), and keeping all the different versions in sync; it's harder to get your head around initially, but it is super powerful and flexible as a result.
+
+Note that content management systems are almost all *text* management systems. It's fairly straightforward to track changes to a text, compared with, say, changes to an image file.
+
+# A History of Digitized Text
+
+What's so special about text?
+
+It *matters* what kind of stuff is in the file. A binary file (like an image, or audio, or an InDesign document) is, fundamentally hard to edit. It needs to be reconstituted by some application into a workable format -- for instance, in an audio editing application -- then saved back into the file format.
+
+Text files -- and text-based data -- on the other hand, are editable as they are, because their structure corresponds exactly (or at least closely) to what they represent. A plain text file is made up exactly of the letters you read when you read it. Editing the file is identical with editing the text.
+
+It's worth pausing here to think about how MS Word, while it allows text editing, is not a "text editor," nor does it trade in text files. Word processors are best thought of as specialized desktop-publishing tools, optimized for use in office communications environments. They are very much concerned with the visual formatting of the page. Word processors have tons of features designed to make office communications easier, and the file format itself is stuffed full of the things that tools like Word can do. We should not consider them text editors, though, because the text is in some ways incidental to the overall function of the software. 
+
+An actual Text Editor -- like Sublime Text, BBEdit, NotePad++, or others -- presents you with the text itself, and operates on raw text files. The interface may provide some niceties, like colouring the text for readability or navigation, but the visual effects are kept strictly separate from the text itself. In the file, the text is the text, and that is all. This is important for our purposes.
+
+Text is special. This goes beyond the mechanics of files and file formats. Text is special because it's uniquely editable, changeable, mutable. What's that? You thought it was special because it was unchanging! But that's *print*, not *text*. The "text" comes into being at the point when Gutenberg makes the type "moveable."
+
+Text can be edited; it can be parsed; it can be processed in ways that are broadly understood, literally by every literate person. Compare that to all that's required to edit two seconds out of a video file -- or crop your sister's ex from a family photo. Editing things other than text requires layers and layers of software interpretation.
+
+Interestingly, when we have systems that *generate* audio or video, we typically interact with it via 'notation,' which is intended to work sort of like text. Think about music scores, for instance. And XML, more about which below...
+
+Text is special because we know how to process it, and so making computers process text is an extension of our own understanding, as opposed to something unique that has to be invented (like Photoshop or something).
+
+## A Tale of Two Paradigms
+
+Interestingly, the history of how we think about text in computers has two parallel software traditions, very different in approach. These intersect here and there, but are almost two distinct *paradigms*.
+
+The first tradition starts with text files, and builds structure into these files in order to deal with things like formatting, metadata, and so on. This tradition comes out of old-school typesetting and leads through Standard Generalized Markup Language (SGML, from the 1980s), HyperText Markup Language (HTML, early 1990s), to eXtensible Markup Language (XML, from the late 1990s). It is the approach that underlies the Web and most "digital publishing" formats.
+
+In this way of thinking, the text and its innate structures are of paramount importance, and things like formatting and layout are secondary; they need to be layered onto the underlying text structures. This approach is extremely well suited to accessibility, as a single text can be manifest in different formats for different audiences or different contexts.
+
+The second tradition, largely invented at Xerox PARC in the 1970s, makes page layout primary, and everything else is secondary. This tradition begins with "Desktop Publishing" (DTP) leading through word processors and software like PageMaker, QuarkXpress, and InDesign, and reaches its full expression in the PDF -- which is a perfect virtual image of a page. The goal is "WYSIWYG" -- *what you see is what you get* -- that what you see on the computer screen is what you'll get on the printed page. This tradition has been dominant in publishing since around 1990, and it utterly replaced traditional typesetting. 
+
+But the page-first paradigm presents all sorts of difficulties for multiple formats, and especially for accessibility, since the underlying text needs to be extracted from what the software is fundamentally designed to do: page layout. 
+
+In 2023, we live in a world where these two traditions co-exist, but only interact with some difficulty (as seen with the "born-accessible ebook"). There are ways of moving between the two approaches. Merely being aware that there ARE two distinct approaches is the first step to that. You would be surprised how few people on this planet really understand this.
+
+
+
+
