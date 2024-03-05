@@ -1,20 +1,26 @@
-Class: Files: 1:20-4:20: Technology news?
-Hello! Today we're going to say hello, talk about what this class is going to be all about, and ensure we all have the materials we need. First: Introduce myself/background
-I want to know how you take in information best before I start lectures. I’m comfortable with slides, worksheets, conversations, lectures… but everyone is different. This class was created by John Maxwell, who you will meet in a couple of weeks, and he hated slides. He loves classes to be conversations, discussions, constantly winding off track. I am a huge fan of that style, but it doesn’t work for everyone. 
-So, in a moment I’m going to ask everyone to introduce themselves, and before the next person goes, just let me know something about your learning style. 
-Everyone else: introduce yourselves, and one fact about your learning style.
-We have twelve classes. In the first 10 classes, we have five lectures, four labs, and one field trip. The last week is just wrap-up and presentations. This is intended to be a project-based course, not a lecture-based one. It is flexible. 
-In this class in the past students have done an audiobook and an ebook, but I’d like to see us focus on the audiobook process, learn about documentation, and dabble in some other tech. I’m keeping a large portion of the information about ebooks in this process–we’ll even discuss how we would do an ebook on March 21–but you won’t be asked to create one.
-This is where the daily presentations come in. I don’t want this to be a repeat of 802, but I do want you to play with and understand some technologies. I posted a list of options on Canvas, and you can choose your first and second choice from that list. Something I didn’t put there is that I would prefer practical projects over presentations. If you have some other type of technology you’d like to try out and report on, let me know. I’ll probably approve it. The goal with these presentations isn’t adding more work, so don’t spend time perfecting the visuals or going over your speech; try out the technology (if you can) and learn about it. Try to answer some of the questions on the list, and come in and tell us all about it. I expect that the presentations next week will be a bit shorter than the ones later in the course. 
-2:10: I prefer two 10-minute breaks over one 20-minute break in my classes. Any problems with that? If not, let’s take a break. 
-Back–great. Our discussion about files and file management will be about an hour, and then we will set groups, and you can start talking about your group plan/what you’d like to do, or you can go onto Canvas and put your name on the list for the daily presentation. 
+Class: File Structure Lecture
+March 5, 2024
+1:20-4:20
+
+## Introductions
+
+1. Who am I?
+2. Who are you?
+3. Learning Styles?
+4. Who created this course?
+5. Class Plan (it's flexible)
+6. Class History (it's pleasant chaos)
+7. Daily Presentations (also flexible)
+8. Class breaks
+9. Todays Plan
+
+
+
+## Lecture Time
+   
 First, why are we talking about file management and documentation this week? It seems simple, and it kind of is. However, technology is a science, and in science, we record and replicate our successes. If we don’t remember what we tried, what we tested, what did and didn’t work, we won’t be able to pass that learning on to others.  
 
-
-
-
-Lecture: 
-So, this week is all about what files are, how they work in a computer, and how we’ll be documenting as a group. We could just document our notes in Word or Google Docs, but I believe the system we’ll learn this week is valuable and will improve your understanding of the rest of the course.  
+This week is all about what files are, how they work in a computer, and how we’ll be documenting as a group. We could just document our notes in Word or Google Docs, but I believe the system we’ll learn this week is valuable and will improve your understanding of the rest of the course.  
 
 At the very beginning of our consideration of digital production, we need to talk about *files*. Because files are fundamental to digital production. Or are they?
 
